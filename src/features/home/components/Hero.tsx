@@ -2,6 +2,7 @@ import { Trans, useTranslation } from 'react-i18next'
 import { Link } from '@tanstack/react-router'
 import { Navbar } from './Navbar'
 import { SocialRail } from './SocialRail'
+import { SocialRow } from './SocialRow'
 import { HeroSearch } from '../../products/components/HeroSearch'
 
 const HERO_IMAGE =
@@ -55,10 +56,15 @@ export function Hero() {
           >
             {t('common:actions.goShopping')}
           </Link>
+
+          {/* Mobile only — on desktop the vertical rail on the right edge
+              carries the socials. */}
+          <div className="md:hidden">
+            <SocialRow />
+          </div>
         </div>
 
-        {/* Social rail is an editorial accent — hidden on mobile where it
-            fought the hero image for horizontal space. */}
+        {/* Desktop vertical rail */}
         <div className="pointer-events-auto absolute right-10 top-1/2 hidden -translate-y-1/2 md:block">
           <SocialRail />
         </div>
