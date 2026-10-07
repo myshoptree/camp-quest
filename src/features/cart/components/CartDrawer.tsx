@@ -1,9 +1,14 @@
 import { useMemo } from 'react'
 import { useQuery } from '@tanstack/react-query'
-import { useTranslation } from 'react-i18next'
 import { productsQueryOptions } from '../../products/queries/products'
 import { useCartStore } from '../hooks/useCartStore'
 import { formatPrice } from '../../../lib/money'
+
+// Cart UI stays in English regardless of the app locale — product info
+// (name, price) still comes from the Product object untouched. Importing the
+// EN bundle directly keeps this stable and never dependent on i18n state.
+import enCart from '../../../i18n/locales/en/cart.json'
+import enCommon from '../../../i18n/locales/en/common.json'
 
 export function CartDrawer({
   open,
@@ -12,7 +17,6 @@ export function CartDrawer({
   open: boolean
   onClose: () => void
 }) {
-  const { t } = useTranslation(['cart', 'common'])
   const items = useCartStore((s) => s.items)
   const remove = useCartStore((s) => s.remove)
   const add = useCartStore((s) => s.add)
@@ -42,18 +46,18 @@ export function CartDrawer({
         }`}
       />
       <aside
-        aria-label={t('cart:title')}
+        aria-label={enCart.title}
         aria-hidden={!open}
         className={`fixed right-0 top-0 z-50 flex h-dvh w-full max-w-md flex-col bg-white shadow-2xl transition-transform ${
           open ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
         <header className="flex items-center justify-between border-b border-black/5 px-6 py-5">
-          <h2 className="text-lg font-semibold text-ink">{t('cart:title')}</h2>
+          <h2 className="text-lg font-semibold text-ink">{enCart.title}</h2>
           <button
             type="button"
             onClick={onClose}
-            aria-label={t('common:a11y.closeCart')}
+            aria-label={enCommon.a11y.closeCart}
             className="rounded-full p-2 text-ink/70 hover:bg-black/5"
           >
             <svg
@@ -72,7 +76,7 @@ export function CartDrawer({
         <div className="flex-1 overflow-y-auto px-6 py-4">
           {lines.length === 0 ? (
             <p className="pt-16 text-center text-sm text-ink/60">
-              {t('cart:empty')}
+              {enCart.empty}
             </p>
           ) : (
             <ul className="flex flex-col gap-4">
@@ -88,6 +92,7 @@ export function CartDrawer({
                   />
                   <div className="flex min-w-0 flex-1 flex-col justify-between">
                     <div>
+                      {/* Product info stays in whatever language the catalog defines */}
                       <p className="line-clamp-1 font-medium text-ink">
                         {product.name}
                       </p>
@@ -100,7 +105,7 @@ export function CartDrawer({
                       <div className="flex items-center gap-2">
                         <button
                           type="button"
-                          aria-label={t('cart:decrease')}
+                          aria-label={enCart.decrease}
                           onClick={() =>
                             quantity > 1
                               ? add(product.id, -1)
@@ -110,10 +115,12 @@ export function CartDrawer({
                         >
                           −
                         </button>
-                        <span className="w-5 text-center text-sm">{quantity}</span>
+                        <span className="w-5 text-center text-sm">
+                          {quantity}
+                        </span>
                         <button
                           type="button"
-                          aria-label={t('cart:increase')}
+                          aria-label={enCart.increase}
                           onClick={() => add(product.id, 1)}
                           className="h-7 w-7 rounded-full border border-black/10 text-ink/70 hover:bg-black/5"
                         >
@@ -125,7 +132,7 @@ export function CartDrawer({
                         onClick={() => remove(product.id)}
                         className="text-xs text-ink/50 hover:text-ink"
                       >
-                        {t('cart:remove')}
+                        {enCart.remove}
                       </button>
                     </div>
                   </div>
@@ -137,7 +144,7 @@ export function CartDrawer({
 
         <footer className="border-t border-black/5 px-6 py-5">
           <div className="flex items-center justify-between text-sm">
-            <span className="text-ink/60">{t('cart:subtotal')}</span>
+            <span className="text-ink/60">{enCart.subtotal}</span>
             <span className="font-semibold text-ink">
               {formatPrice(totalCents)}
             </span>
@@ -147,7 +154,7 @@ export function CartDrawer({
             disabled={lines.length === 0}
             className="mt-4 w-full rounded-full bg-ink px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-ink-soft disabled:cursor-not-allowed disabled:opacity-50"
           >
-            {t('cart:checkout')}
+            {enCart.checkout}
           </button>
           {lines.length > 0 && (
             <button
@@ -155,7 +162,7 @@ export function CartDrawer({
               onClick={clear}
               className="mt-2 w-full rounded-full px-6 py-2 text-xs text-ink/50 hover:text-ink"
             >
-              {t('cart:clear')}
+              {enCart.clear}
             </button>
           )}
         </footer>

@@ -8,6 +8,7 @@
   "actions": {
     "goShopping": "Ir de compras",
     "addToCart": "Añadir al carrito",
+    "add": "Añadir",
     "outOfStock": "Sin stock",
     "backToJournal": "← Volver al diario",
     "allArticles": "Todos los artículos",

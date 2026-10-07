@@ -8,6 +8,7 @@
   "actions": {
     "goShopping": "Go shopping",
     "addToCart": "Add to cart",
+    "add": "Add",
     "outOfStock": "Out of stock",
     "backToJournal": "← Back to journal",
     "allArticles": "All articles",

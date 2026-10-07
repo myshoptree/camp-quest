@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>CampQuest</title>
+    <!--
+      GitHub Pages SPA fallback.
+      When a user hard-reloads a client-side route like /camp-quest/journal/xyz,
+      GitHub serves this 404.html instead of index.html. We rewrite the URL back
+      to the SPA shell so the router can resolve the route on the client.
+    -->
+    <script>
+      (function () {
+        var basePath = '/camp-quest';
+        var l = window.location;
+        var path = l.pathname;
+        if (path.indexOf(basePath) !== 0) path = basePath + path;
+        var target = basePath + '/?__spa=' + encodeURIComponent(
+          path.slice(basePath.length) + l.search + l.hash
+        );
+        l.replace(l.origin + target);
+      })();
+    </script>
+    <meta http-equiv="refresh" content="0; url=/camp-quest/" />
+  </head>
+  <body></body>
+</html>
