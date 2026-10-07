@@ -1,0 +1,22 @@
+{
+  "eyebrow": "Guías",
+  "heading": "Saber hacer de camping, por nivel.",
+  "subtitle": "Guías paso a paso para pasar de tu primer fin de semana afuera a viajes invernales con confianza.",
+  "levelLabel": "Nivel",
+  "levels": {
+    "beginner": {
+      "label": "Principiante",
+      "blurb": "Tus primeras noches afuera, bien hechas."
+    },
+    "intermediate": {
+      "label": "Intermedio",
+      "blurb": "Viajes más largos, mochilas más ligeras, mejor comida."
+    },
+    "expert": {
+      "label": "Experto",
+      "blurb": "Invierno, altitud y vueltas de varios días."
+    }
+  },
+  "count": "{{count}} guías",
+  "empty": "Pronto llegarán nuevas guías para este nivel."
+}

@@ -1,0 +1,48 @@
+{
+  "id": "a_02",
+  "slug": "picking-a-sleeping-bag",
+  "coverUrl": "https://images.unsplash.com/photo-1526491109672-74740652b963?auto=format&fit=crop&w=1600&q=70",
+  "category": "gear-reviews",
+  "difficulty": "beginner",
+  "readMinutes": 8,
+  "author": "Marcus Rhee",
+  "publishedAt": "2026-09-02",
+  "title": {
+    "es": "Cómo elegir un saco de dormir que realmente abrigue",
+    "en": "How to pick a sleeping bag that actually keeps you warm"
+  },
+  "excerpt": {
+    "es": "Las temperaturas en la etiqueta mienten. Así se leen y así se emparejan con un aislante.",
+    "en": "Temperature ratings lie. Here is how to read them, and how to pair them with a pad."
+  },
+  "body": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Las temperaturas del fabricante son números de 'supervivencia', no de confort. Lee la EN/ISO 23537 — el número 'comfort' es el que te importa.",
+        "en": "Manufacturer ratings are 'survival' numbers, not comfort numbers. Read EN/ISO 23537 — the 'comfort' number is the one that matters."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": { "es": "La regla del aislante", "en": "The pad rule" }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El saco no abriga si el aislante no acompaña. Para 0°C busca R-value ≥ 3.",
+        "en": "The bag won't warm you if the pad doesn't match. For 0°C aim for R-value ≥ 3."
+      }
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": { "es": "Ojo", "en": "Watch out" },
+      "text": {
+        "es": "Un aislante de verano bajo un saco de invierno es la causa #1 de noches frías.",
+        "en": "A summer pad under a winter bag is the #1 cause of cold nights."
+      }
+    }
+  ]
+}

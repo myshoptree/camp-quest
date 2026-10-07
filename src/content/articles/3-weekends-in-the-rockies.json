@@ -1,0 +1,36 @@
+{
+  "id": "a_03",
+  "slug": "3-weekends-in-the-rockies",
+  "coverUrl": "https://images.unsplash.com/photo-1455156218388-5e61b526818b?auto=format&fit=crop&w=1600&q=70",
+  "category": "destinations",
+  "difficulty": "intermediate",
+  "readMinutes": 10,
+  "author": "Avery Chen",
+  "publishedAt": "2026-09-20",
+  "title": {
+    "es": "3 rutas de fin de semana en las Rocosas sin permiso",
+    "en": "3 weekend loops in the Rockies you can do without a permit"
+  },
+  "excerpt": {
+    "es": "Cortas, con buenas vistas y amigables en temporada baja — los planes favoritos de nuestros editores.",
+    "en": "Short, scenic, and shoulder-season-friendly — our editors' favorite escape plans."
+  },
+  "body": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Desde Brainard Lake hasta los Indian Peaks, estas tres rutas ofrecen más de lo que su kilometraje sugiere.",
+        "en": "From Brainard Lake to the Indian Peaks, these three loops punch above their mileage."
+      }
+    },
+    {
+      "type": "list",
+      "variant": "numbered",
+      "items": [
+        { "es": "Brainard Lake Loop — 12 km, +300m", "en": "Brainard Lake Loop — 12 km, +300m" },
+        { "es": "Pawnee Pass Out & Back — 16 km, +850m", "en": "Pawnee Pass Out & Back — 16 km, +850m" },
+        { "es": "Mount Audubon — 11 km, +1000m", "en": "Mount Audubon — 11 km, +1000m" }
+      ]
+    }
+  ]
+}

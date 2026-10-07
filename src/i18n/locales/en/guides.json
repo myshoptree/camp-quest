@@ -1,0 +1,22 @@
+{
+  "eyebrow": "Guides",
+  "heading": "Practical camping know-how, by level.",
+  "subtitle": "Step-by-step guides to take you from your first weekend out to confident winter trips.",
+  "levelLabel": "Level",
+  "levels": {
+    "beginner": {
+      "label": "Beginner",
+      "blurb": "Your first nights out, done right."
+    },
+    "intermediate": {
+      "label": "Intermediate",
+      "blurb": "Longer trips, lighter packs, better food."
+    },
+    "expert": {
+      "label": "Expert",
+      "blurb": "Winter, altitude, and multi-day loops."
+    }
+  },
+  "count": "{{count}} guides",
+  "empty": "New guides coming soon for this level."
+}

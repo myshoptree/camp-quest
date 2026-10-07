@@ -1,0 +1,23 @@
+{
+  "index": {
+    "eyebrow": "Journal",
+    "heading": "Learn, plan, and get inspired.",
+    "subtitle": "Field notes from our editors and the CampQuest community — tips, gear reviews, destination picks, and the stories behind them."
+  },
+  "article": {
+    "meta": "By {{author}} · {{minutes}} min read · {{date}}",
+    "readMinutes": "{{minutes}} min read"
+  },
+  "categories": {
+    "tips": "tips",
+    "guides": "guides",
+    "destinations": "destinations",
+    "gear-reviews": "gear reviews",
+    "stories": "stories"
+  },
+  "difficulty": {
+    "beginner": "beginner",
+    "intermediate": "intermediate",
+    "expert": "expert"
+  }
+}

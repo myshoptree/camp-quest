@@ -1,0 +1,55 @@
+{
+  "id": "a_06",
+  "slug": "guide-winter-tent-setup",
+  "coverUrl": "https://images.unsplash.com/photo-1518621736915-f3b1c41bfd00?auto=format&fit=crop&w=1600&q=70",
+  "category": "guides",
+  "difficulty": "expert",
+  "readMinutes": 12,
+  "author": "Marcus Rhee",
+  "publishedAt": "2026-06-28",
+  "title": {
+    "es": "Montar carpa en invierno: desde elegir sitio hasta ventilar bien",
+    "en": "Winter tent setup, from site selection to vent management"
+  },
+  "excerpt": {
+    "es": "Acampar en frío castiga los atajos. Esta guía experta cubre cada paso.",
+    "en": "Cold-weather camping punishes shortcuts. This expert guide walks through every step."
+  },
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": { "es": "Elección del sitio", "en": "Site selection" }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Elige un sitio abrigado pero no un hoyo frío. El aire frío se asienta en las depresiones durante la noche.",
+        "en": "Pick a sheltered site but not a cold hollow. Cold air settles into depressions overnight."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": { "es": "Preparación de la nieve", "en": "Snow prep" }
+    },
+    {
+      "type": "list",
+      "variant": "numbered",
+      "items": [
+        { "es": "Pisar la nieve con raquetas o esquís", "en": "Pack the snow with snowshoes or skis" },
+        { "es": "Esperar 10 minutos a que fragüe", "en": "Wait 10 minutes for it to sinter" },
+        { "es": "Montar sobre esa plataforma", "en": "Pitch on that platform" }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": { "es": "Ventilación", "en": "Ventilation" },
+      "text": {
+        "es": "Ventila incluso cuando se siente frío adentro — el vaho condensa y luego cae encima.",
+        "en": "Vent even when it feels cold inside — moisture condenses and then rains back on you."
+      }
+    }
+  ]
+}

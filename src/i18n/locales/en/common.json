@@ -1,0 +1,34 @@
+{
+  "brand": "CampQuest",
+  "nav": {
+    "camping": "Camping",
+    "journal": "Journal",
+    "guides": "Guides"
+  },
+  "actions": {
+    "goShopping": "Go shopping",
+    "addToCart": "Add to cart",
+    "outOfStock": "Out of stock",
+    "backToJournal": "← Back to journal",
+    "allArticles": "All articles",
+    "shopAll": "Shop all"
+  },
+  "a11y": {
+    "search": "Search",
+    "closeSearch": "Close search",
+    "cart": "Cart",
+    "account": "Account",
+    "openFilters": "Open filters",
+    "closeCart": "Close cart",
+    "closeFilters": "Close filters",
+    "language": "Language",
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "search": {
+    "placeholder": "Search gear, tents, stoves…",
+    "noResults": "No results for “{{query}}”.",
+    "viewAll": "View all {{count}} results",
+    "hint": "Type to search"
+  }
+}

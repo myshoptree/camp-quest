@@ -1,0 +1,32 @@
+{
+  "eyebrow": "The shop",
+  "heading": "Camping gear built for the long way out.",
+  "count": "{{filtered}} of {{total}} products",
+  "filters": {
+    "button": "Filters",
+    "title": "Filters",
+    "sections": {
+      "category": "Category",
+      "price": "Price",
+      "rating": "Rating",
+      "availability": "Availability"
+    },
+    "inStockOnly": "In stock only",
+    "showResults": "Show results",
+    "clearAll": "Clear all",
+    "pricePresets": {
+      "any": "Any",
+      "under50": "Under $50",
+      "p50to150": "$50 – $150",
+      "p150to250": "$150 – $250",
+      "p250plus": "$250+"
+    },
+    "rating": {
+      "any": "Any"
+    }
+  },
+  "empty": {
+    "message": "No products match these filters.",
+    "clear": "Clear filters"
+  }
+}

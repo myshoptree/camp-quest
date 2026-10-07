@@ -1,0 +1,10 @@
+{
+  "title": "Tu carrito",
+  "empty": "Tu carrito está vacío. Empieza a explorar el equipo.",
+  "subtotal": "Subtotal",
+  "checkout": "Pagar",
+  "clear": "Vaciar carrito",
+  "remove": "Quitar",
+  "increase": "Aumentar",
+  "decrease": "Disminuir"
+}

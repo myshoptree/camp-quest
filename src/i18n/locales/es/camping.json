@@ -1,0 +1,32 @@
+{
+  "eyebrow": "La tienda",
+  "heading": "Equipo de camping para los caminos largos.",
+  "count": "{{filtered}} de {{total}} productos",
+  "filters": {
+    "button": "Filtros",
+    "title": "Filtros",
+    "sections": {
+      "category": "Categoría",
+      "price": "Precio",
+      "rating": "Valoración",
+      "availability": "Disponibilidad"
+    },
+    "inStockOnly": "Solo con stock",
+    "showResults": "Ver resultados",
+    "clearAll": "Limpiar todo",
+    "pricePresets": {
+      "any": "Cualquiera",
+      "under50": "Menos de $50",
+      "p50to150": "$50 – $150",
+      "p150to250": "$150 – $250",
+      "p250plus": "$250+"
+    },
+    "rating": {
+      "any": "Cualquiera"
+    }
+  },
+  "empty": {
+    "message": "Ningún producto coincide con estos filtros.",
+    "clear": "Limpiar filtros"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "a_04",
+  "slug": "cooking-one-pot-meals",
+  "coverUrl": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?auto=format&fit=crop&w=1600&q=70",
+  "category": "tips",
+  "difficulty": "intermediate",
+  "readMinutes": 7,
+  "author": "Jun Alvarez",
+  "publishedAt": "2026-07-11",
+  "title": {
+    "es": "Comidas en una sola olla que superan a las liofilizadas",
+    "en": "One-pot meals that beat freeze-dried any day"
+  },
+  "excerpt": {
+    "es": "Cinco recetas que preparas en casa, terminas en ruta y limpias en un minuto.",
+    "en": "Five recipes you can prep at home, finish on trail, and clean in one minute flat."
+  },
+  "body": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un hornillo de cartucho, una olla de 1.3L y 20 minutos. Ese es todo el equipo.",
+        "en": "A canister stove, a 1.3L pot, and 20 minutes. That is the entire kit."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": { "es": "Las cinco recetas", "en": "The five recipes" }
+    },
+    {
+      "type": "list",
+      "variant": "bulleted",
+      "items": [
+        { "es": "Cuscús con atún y limón", "en": "Couscous with tuna and lemon" },
+        { "es": "Fideos con miso y jengibre", "en": "Noodles with miso and ginger" },
+        { "es": "Arroz instantáneo con frijoles negros", "en": "Instant rice with black beans" },
+        { "es": "Polenta cremosa con parmesano", "en": "Creamy polenta with parmesan" },
+        { "es": "Avena salada con huevo", "en": "Savory oats with egg" }
+      ]
+    }
+  ]
+}

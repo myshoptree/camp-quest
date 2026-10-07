@@ -1,0 +1,82 @@
+{
+  "id": "a_01",
+  "slug": "first-overnight-trip-checklist",
+  "coverUrl": "https://images.unsplash.com/photo-1510312305653-8ed496efae75?auto=format&fit=crop&w=1600&q=70",
+  "category": "tips",
+  "difficulty": "beginner",
+  "readMinutes": 6,
+  "author": "Nora Ellis",
+  "publishedAt": "2026-08-14",
+  "title": {
+    "es": "Tu primera noche afuera: una checklist sin estrés",
+    "en": "Your first overnight trip: a no-stress checklist"
+  },
+  "excerpt": {
+    "es": "Los 18 artículos que convierten una primera noche caótica en una tranquila, cálida y feliz.",
+    "en": "The 18 items that turn a chaotic first night out into a quiet, warm, happy one."
+  },
+  "body": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Acampar por primera vez no se trata de comprar todo, sino de empacar lo correcto en el orden correcto. Empieza por el refugio, luego el abrigo, luego la comida.",
+        "en": "Camping for the first time is less about buying everything and more about packing the right things in the right order. Start with shelter, then warmth, then food."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": { "es": "Refugio", "en": "Shelter" }
+    },
+    {
+      "type": "list",
+      "variant": "checklist",
+      "items": [
+        { "es": "Carpa con sobretecho y estacas", "en": "Tent with fly and stakes" },
+        { "es": "Aislante o colchoneta", "en": "Sleeping pad" },
+        { "es": "Lona o groundsheet", "en": "Groundsheet" }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": { "es": "Abrigo", "en": "Warmth" }
+    },
+    {
+      "type": "list",
+      "variant": "checklist",
+      "items": [
+        { "es": "Saco de dormir adecuado a la temperatura", "en": "Sleeping bag for the night's low" },
+        { "es": "Capa base térmica", "en": "Thermal base layer" },
+        { "es": "Gorro para dormir", "en": "Beanie to sleep in" }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": { "es": "Consejo", "en": "Tip" },
+      "text": {
+        "es": "Suma 10°C al rating del saco para pasar de supervivencia a confort real.",
+        "en": "Add 10°C to the bag's rating to go from survival to real comfort."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": { "es": "Comida", "en": "Food" }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un hornillo, una olla pequeña y comidas que se cocinen en una sola olla te quitan la mitad de la logística.",
+        "en": "A stove, a small pot, and one-pot meals cut your logistics in half."
+      }
+    },
+    {
+      "type": "button",
+      "variant": "primary",
+      "href": "/camping",
+      "label": { "es": "Ver equipo recomendado", "en": "See recommended gear" }
+    }
+  ]
+}

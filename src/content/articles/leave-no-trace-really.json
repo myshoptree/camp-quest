@@ -1,0 +1,35 @@
+{
+  "id": "a_05",
+  "slug": "leave-no-trace-really",
+  "coverUrl": "https://images.unsplash.com/photo-1537905569824-f89f14cceb68?auto=format&fit=crop&w=1600&q=70",
+  "category": "stories",
+  "difficulty": null,
+  "readMinutes": 5,
+  "author": "Priya Oduya",
+  "publishedAt": "2026-10-01",
+  "title": {
+    "es": "No dejar rastro — lo que la gente suele hacer mal",
+    "en": "Leave No Trace — the parts people actually get wrong"
+  },
+  "excerpt": {
+    "es": "No es solo llevarse la basura. Los seis hábitos sutiles que protegen cada sitio donde acampas.",
+    "en": "It is not just packing out trash. The six subtle habits that protect every site you camp in."
+  },
+  "body": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los siete principios son un comienzo. El verdadero trabajo está en las microdecisiones.",
+        "en": "The seven principles are a start. The real work is in micro-decisions."
+      }
+    },
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": {
+        "es": "70 metros desde cualquier fuente de agua para orinar, cocinar y lavar.",
+        "en": "70 meters from any water source for peeing, cooking, and washing."
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "hero": {
+    "headlinePre": "Equip Yourself with the",
+    "headlineAccent": "Best",
+    "headlinePost": "Camping Gear.",
+    "subtitle": "Discover everything you need for your next outdoor adventure — from durable tents and cozy sleeping bags to reliable cooking gear."
+  },
+  "bestSellers": {
+    "eyebrow": "Trail-tested",
+    "heading": "Best sellers of the season.",
+    "subtitle": "The gear our community keeps coming back for — picked, used, and re-reviewed by real campers."
+  },
+  "journalPreview": {
+    "eyebrow": "From the Journal",
+    "heading": "Tips, guides, and stories from the field."
+  }
+}

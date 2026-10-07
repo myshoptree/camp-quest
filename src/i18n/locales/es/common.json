@@ -1,0 +1,34 @@
+{
+  "brand": "CampQuest",
+  "nav": {
+    "camping": "Camping",
+    "journal": "Diario",
+    "guides": "Guías"
+  },
+  "actions": {
+    "goShopping": "Ir de compras",
+    "addToCart": "Añadir al carrito",
+    "outOfStock": "Sin stock",
+    "backToJournal": "← Volver al diario",
+    "allArticles": "Todos los artículos",
+    "shopAll": "Ver todo"
+  },
+  "a11y": {
+    "search": "Buscar",
+    "closeSearch": "Cerrar búsqueda",
+    "cart": "Carrito",
+    "account": "Cuenta",
+    "openFilters": "Abrir filtros",
+    "closeCart": "Cerrar carrito",
+    "closeFilters": "Cerrar filtros",
+    "language": "Idioma",
+    "previous": "Anterior",
+    "next": "Siguiente"
+  },
+  "search": {
+    "placeholder": "Buscar equipo, carpas, hornillos…",
+    "noResults": "Sin resultados para “{{query}}”.",
+    "viewAll": "Ver los {{count}} resultados",
+    "hint": "Escribe para buscar"
+  }
+}

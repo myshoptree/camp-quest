@@ -1,0 +1,17 @@
+{
+  "hero": {
+    "headlinePre": "Equípate con el",
+    "headlineAccent": "mejor",
+    "headlinePost": "equipo de camping.",
+    "subtitle": "Descubre todo lo que necesitas para tu próxima aventura al aire libre — desde carpas resistentes y sacos acogedores hasta equipo de cocina confiable."
+  },
+  "bestSellers": {
+    "eyebrow": "Probado en ruta",
+    "heading": "Los más vendidos de la temporada.",
+    "subtitle": "El equipo al que nuestra comunidad vuelve una y otra vez — elegido, usado y re-reseñado por campistas reales."
+  },
+  "journalPreview": {
+    "eyebrow": "Del Diario",
+    "heading": "Consejos, guías e historias desde el terreno."
+  }
+}

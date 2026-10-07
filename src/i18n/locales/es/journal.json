@@ -1,0 +1,23 @@
+{
+  "index": {
+    "eyebrow": "Diario",
+    "heading": "Aprende, planifica e inspírate.",
+    "subtitle": "Apuntes desde el terreno de nuestros editores y la comunidad CampQuest — consejos, reseñas de equipo, destinos y las historias detrás."
+  },
+  "article": {
+    "meta": "Por {{author}} · {{minutes}} min de lectura · {{date}}",
+    "readMinutes": "{{minutes}} min de lectura"
+  },
+  "categories": {
+    "tips": "consejos",
+    "guides": "guías",
+    "destinations": "destinos",
+    "gear-reviews": "reseñas de equipo",
+    "stories": "historias"
+  },
+  "difficulty": {
+    "beginner": "principiante",
+    "intermediate": "intermedio",
+    "expert": "experto"
+  }
+}
