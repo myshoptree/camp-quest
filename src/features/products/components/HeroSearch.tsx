@@ -75,9 +75,25 @@ export function HeroSearch() {
           onClick={submit}
           disabled={!trimmed}
           aria-label={t('a11y.search')}
-          className="flex h-11 shrink-0 items-center gap-1.5 rounded-full bg-ink px-4 text-xs font-semibold uppercase tracking-wider text-white transition-all hover:bg-ink-soft disabled:cursor-not-allowed disabled:opacity-50"
+          className={`flex h-11 w-11 shrink-0 items-center justify-center rounded-full transition-all ${
+            trimmed
+              ? 'bg-ink text-white shadow-md shadow-ink/30 hover:scale-105 hover:bg-ink-soft'
+              : 'bg-neutral-100 text-ink/40 cursor-not-allowed'
+          }`}
         >
-          {t('a11y.search')}
+          <svg
+            viewBox="0 0 24 24"
+            className="h-5 w-5"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2.2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            aria-hidden="true"
+          >
+            <path d="M5 12h14" />
+            <path d="m13 5 7 7-7 7" />
+          </svg>
         </button>
       </label>
 
