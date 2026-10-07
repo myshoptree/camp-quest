@@ -57,7 +57,9 @@ export function Hero() {
           </Link>
         </div>
 
-        <div className="pointer-events-auto absolute right-6 top-1/2 -translate-y-1/2 md:right-10">
+        {/* Social rail is an editorial accent — hidden on mobile where it
+            fought the hero image for horizontal space. */}
+        <div className="pointer-events-auto absolute right-10 top-1/2 hidden -translate-y-1/2 md:block">
           <SocialRail />
         </div>
       </div>
