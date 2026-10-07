@@ -1,4 +1,5 @@
 import { Trans, useTranslation } from 'react-i18next'
+import { Link } from '@tanstack/react-router'
 import { Navbar } from './Navbar'
 import { SocialRail } from './SocialRail'
 import { HeroSearch } from '../../products/components/HeroSearch'
@@ -48,12 +49,12 @@ export function Hero() {
             {t('home:hero.subtitle')}
           </p>
 
-          <a
-            href="/camping"
+          <Link
+            to="/camping"
             className="mt-8 inline-flex items-center justify-center rounded-full bg-ink px-8 py-4 text-sm font-semibold tracking-wide text-white shadow-xl shadow-black/20 transition-transform hover:scale-[1.02] hover:bg-ink-soft"
           >
             {t('common:actions.goShopping')}
-          </a>
+          </Link>
         </div>
 
         <div className="pointer-events-auto absolute right-6 top-1/2 -translate-y-1/2 md:right-10">

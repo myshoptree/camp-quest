@@ -1,3 +1,4 @@
+import { Link } from '@tanstack/react-router'
 import { pickIntl, type ContentNode, type ContentTree, type IntlString } from '../data/schemas'
 import { useLocale } from '../../../i18n/useLocale'
 import type { Locale } from '../../../i18n'
@@ -200,11 +201,20 @@ function Button({
     variant === 'ghost'
       ? 'border border-ink/15 text-ink hover:bg-black/5'
       : 'bg-ink text-white hover:bg-ink-soft'
+  const className = `inline-flex w-fit items-center justify-center rounded-full px-6 py-3 text-sm font-semibold transition-colors ${styles}`
+
+  // Internal paths route through the client-side Link so the basepath
+  // (/camp-quest in prod) is applied automatically; external URLs stay as <a>.
+  const isInternal = href.startsWith('/')
+  if (isInternal) {
+    return (
+      <Link to={href} className={className}>
+        {label}
+      </Link>
+    )
+  }
   return (
-    <a
-      href={href}
-      className={`inline-flex w-fit items-center justify-center rounded-full px-6 py-3 text-sm font-semibold transition-colors ${styles}`}
-    >
+    <a href={href} className={className} rel="noreferrer" target="_blank">
       {label}
     </a>
   )
